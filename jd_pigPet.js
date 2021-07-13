@@ -109,7 +109,7 @@ function pigPetSignOne() {
     const body = {
       "source":2,
       "channelLV":"juheye",
-      "riskDeviceParam": "{}",
+      "riskDeviceParam": "{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}",
       "no": $.no
     }
     $.post(taskUrl('pigPetSignOne', body), (err, resp, data) => {
@@ -196,7 +196,7 @@ function pigPetAddFood(skuId) {
     const body = {
       "source": 0,
       "channelLV":"yqs",
-      "riskDeviceParam":"{}",
+      "riskDeviceParam":"{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}",
       "skuId": skuId.toString(),
       "category":"1001",
     }
@@ -232,7 +232,7 @@ function pigPetLogin() {
     const body = {
       "source":2,
       "channelLV":"juheye",
-      "riskDeviceParam":"{}",
+      "riskDeviceParam":"{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}",
     }
     $.post(taskUrl('pigPetLogin', body), async (err, resp, data) => {
       try {
@@ -318,7 +318,7 @@ function pigPetLotteryIndex() {
     const body = {
       "source":0,
       "channelLV":"juheye",
-      "riskDeviceParam": "{}"
+      "riskDeviceParam": "{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}"
     }
     $.post(taskUrl('pigPetLotteryIndex', body), (err, resp, data) => {
       try {
@@ -358,7 +358,7 @@ function pigPetSignIndex() {
     const body = {
       "source":2,
       "channelLV":"juheye",
-      "riskDeviceParam": "{}"
+      "riskDeviceParam": "{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}"
     }
     $.post(taskUrl('pigPetSignIndex', body), (err, resp, data) => {
       try {
@@ -397,7 +397,7 @@ function pigPetLotteryPlay() {
     const body = {
       "source":0,
       "channelLV":"juheye",
-      "riskDeviceParam":"{}",
+      "riskDeviceParam":"{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}",
       "t":Date.now(),
       "type":0,
     }
