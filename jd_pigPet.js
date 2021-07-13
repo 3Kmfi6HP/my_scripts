@@ -445,9 +445,9 @@ async function missions() {
         await pigPetDoMission(item.mid);
       } else {
         //TODO
-        // await pigPetDoMission(item.mid);
-        // await queryMissionReceiveAfterStatus(item.mid);
-        // await finishReadMission(item.mid);
+        await pigPetDoMission(item.mid);
+        await queryMissionReceiveAfterStatus(item.mid);
+        await finishReadMission(item.mid);
       }
     }
   }
@@ -458,7 +458,7 @@ function pigPetDoMission(mid) {
     const body = {
       "source":0,
       "channelLV":"",
-      "riskDeviceParam":"{}",
+      "riskDeviceParam":"{\"macAddress\":\"\",\"imei\":\"\",\"eid\":\"\",\"openUUID\":\"\",\"uuid\":\"\",\"traceIp\":\"\",\"os\":\"\",\"osVersion\":\"\",\"appId\":\"\",\"clientVersion\":\"\",\"resolution\":\"\",\"channelInfo\":\"\",\"networkType\":\"\",\"startNo\":42,\"openid\":\"\",\"token\":\"\",\"sid\":\"\",\"terminalType\":\"\",\"longtitude\":\"\",\"latitude\":\"\",\"securityData\":\"\",\"jscContent\":\"\",\"fnHttpHead\":\"\",\"receiveRequestTime\":\"\",\"port\":80,\"appType\":\"\",\"deviceType\":\"\",\"fp\":\"82667453a8ff3402c6f9328664f15a20\",\"ip\":\"\",\"idfa\":\"\",\"sdkToken\":\"\"}",
       mid
     }
     $.post(taskUrl('pigPetDoMission', body), (err, resp, data) => {
